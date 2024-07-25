@@ -1,0 +1,3 @@
+{
+  "extends": "@lira-dao/typescript-config/base.json"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@lira-dao/ecosystem",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "compile": "turbo compile",
+    "clean": "rimraf node_modules apps/**/node_modules contracts/**/node_modules packages/**/node_modules",
+    "clean-cache": "rimraf contracts/**/artifacts contracts/**/cache contracts/**/typechain-types"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.3",
+    "@lira-dao/eslint-config": "workspace:*",
+    "@lira-dao/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.7",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "engines": {
+    "node": ">=18"
+  }
+}
